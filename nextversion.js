@@ -1,6 +1,6 @@
 $(window).on("load", function(){
     //HTMLを読み込んだらここに書いたことを実行します。
-    $('.loading').fadeOut();
+    $('.loading').css('display','none');
     $('.header-btn a[href*="#"]').click(function () {//全てのページ内リンクに適用させたい場合はa[href*="#"]のみでもOK
 	var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
 	var pos = $(elmHash).offset().top-220;//idの上部の距離からHeaderの高さを引いた値を取得
