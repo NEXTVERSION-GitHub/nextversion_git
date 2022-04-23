@@ -47,7 +47,7 @@
     height: 95%;
   }
   main .top .top-container {
-    background-image: url("../img/sky.jpg");
+    background-image: url("sky.jpg");
     background-size: cover;
   }
   main .top .top-container .top-text {
@@ -228,7 +228,7 @@
     height: 96%;
   }
   main .top .top-container {
-    background-image: url("../img/sky.jpg");
+    background-image: url("sky.jpg");
     background-size: cover;
   }
   main .top .top-container .top-text {
