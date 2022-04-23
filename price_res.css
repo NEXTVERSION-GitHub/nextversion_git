@@ -1,0 +1,227 @@
+@charset "UTF-8";
+.pc {
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+  /* スマートフォン用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+  .sp {
+    display: inline;
+  }
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #405cbf;
+  }
+  main {
+    padding: 0;
+  }
+  main .price-more {
+    padding-bottom: 80px;
+  }
+  main .price-more .price-more-head h1 {
+    font-size: 4.0rem;
+  }
+  main .price-more .price-more-head p {
+    font-size: 1.0rem;
+  }
+  main .price-more .price-more-top-text p {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .price-more .site-box h1 {
+    font-size: 1.3rem;
+  }
+  main .price-more .site-box .site-box-content .content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  main .price-more .site-box .site-box-content .content-box h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+  main .price-more .site-box .site-box-content .content-box p {
+    margin-top: 20px;
+    letter-spacing: 5px;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box h2 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box h3 {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box p {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 960px) {
+  /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+  .tb {
+    display: inline-block;
+  }
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 80px;
+    color: #405cbf;
+  }
+  main {
+    padding: 0;
+  }
+  main .price-more {
+    padding-bottom: 80px;
+  }
+  main .price-more .price-more-head h1 {
+    font-size: 4.0rem;
+  }
+  main .price-more .price-more-head p {
+    font-size: 1.0rem;
+  }
+  main .price-more .price-more-top-text p {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .price-more .site-box h1 {
+    font-size: 1.3rem;
+  }
+  main .price-more .site-box .site-box-content .content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    margin-top: px;
+  }
+  main .price-more .site-box .site-box-content .content-box h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    width: 30%;
+  }
+  main .price-more .site-box .site-box-content .content-box p {
+    margin-top: 20px;
+    margin-left: 5%;
+    letter-spacing: 5px;
+    text-align: left;
+    width: 65%;
+    position: relative;
+    top: -12px;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box h2 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box h3 {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  main .price-more .plan-boxes .boxes-container .plan-box p {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=price_res.css.map */

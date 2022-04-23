@@ -1,0 +1,228 @@
+@charset "UTF-8";
+.pc {
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+  .sp {
+    display: inline-block;
+  }
+  /* スマートフォン用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #405cbf;
+  }
+  main {
+    padding: 0;
+  }
+  main .flow-more .flow-more-container .flow-more-head h1 {
+    font-size: 4.0rem;
+  }
+  main .flow-more .flow-more-container .flow-more-head p {
+    font-size: 1.0rem;
+  }
+  main .flow-more .flow-more-container .flow-more-main {
+    padding-bottom: 80px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text .fa-laptop-code {
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text p {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left {
+    margin: 0;
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left h1 {
+    font-size: 2.0rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right {
+    width: 87%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right p {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 960px) {
+  /* タブレット用レイアウト 520px以上の範囲に収めるデザインはこの中に記述 */
+  .tb {
+    display: inline-block;
+  }
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 80px;
+    color: #405cbf;
+  }
+  main {
+    padding: 0;
+  }
+  main .flow-more .flow-more-container .flow-more-head h1 {
+    font-size: 4.0rem;
+  }
+  main .flow-more .flow-more-container .flow-more-head p {
+    font-size: 1.0rem;
+  }
+  main .flow-more .flow-more-container .flow-more-main {
+    padding-bottom: 80px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text .fa-laptop-code {
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text p {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left {
+    margin: 0;
+    text-align: center;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left h1 {
+    font-size: 2.0rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right {
+    width: 87%;
+    margin: 0 auto;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=flow_res.css.map */

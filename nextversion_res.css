@@ -1,0 +1,366 @@
+@charset "UTF-8";
+@media screen and (max-width: 520px) {
+  /* スマートフォン用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  .sp {
+    display: inline-block;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #405cbf;
+  }
+  main {
+    padding-top: 54px;
+  }
+  main .top {
+    height: 95%;
+  }
+  main .top .top-container {
+    background-image: url("../img/sky.jpg");
+    background-size: cover;
+  }
+  main .top .top-container .top-text {
+    font-size: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .top .top-container .top-text h2 {
+    margin-top: 30px;
+    font-size: 2.0rem;
+    padding-right: 10px;
+  }
+  main .top .top-container .top-text h1 {
+    font-size: 2.3rem;
+    margin-top: 60px;
+  }
+  main .main-about h1 {
+    font-size: 4.0rem;
+  }
+  main .main-about p {
+    font-size: 1.5rem;
+  }
+  main .main-about .about-text p {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  main .main-service h1 {
+    font-size: 4.0rem;
+  }
+  main .main-service p {
+    font-size: 1.5rem;
+  }
+  main .main-service .service-text p {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  main .main-flow h1 {
+    font-size: 4.0rem;
+  }
+  main .main-flow p {
+    font-size: 1.5rem;
+  }
+  main .main-flow .flow-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px;
+  }
+  main .main-flow .flow-text .flow-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  main .main-flow .flow-more {
+    margin-left: 60%;
+  }
+  main .main-price h1 {
+    font-size: 4.0rem;
+  }
+  main .main-price p {
+    font-size: 1.5rem;
+  }
+  main .main-price .plan-boxes {
+    padding-top: 80px;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan h2 {
+    font-size: 2.5rem;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan h3 {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan p {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan h2 {
+    font-size: 2.5rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan h3 {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan p {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-more {
+    margin-left: 60%;
+  }
+  main .main-contact h1 {
+    font-size: 3.5rem;
+  }
+  main .main-contact p {
+    font-size: 1.0rem;
+  }
+  main .main-contact .contact-text p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .main-contact .contact-btn {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 960px) {
+  /* タブレット用レイアウト 521px以上の範囲に収めるデザインはこの中に記述 */
+  .tb {
+    display: inline-block;
+  }
+  .header-menu-sub {
+    position: absolute;
+    margin-left: -40px;
+    padding: 0;
+    display: none;
+  }
+  .header-menu-sub li {
+    margin-top: 40px;
+  }
+  .header-menu-sub li a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  header {
+    padding: 5px 0;
+  }
+  header .header-container .header-left {
+    width: 20%;
+  }
+  header .header-container .header-right .header-btn {
+    display: none;
+  }
+  header .header-container .header-right .header-btns {
+    display: block;
+  }
+  header .header-container .header-right .header-btns .header-menu .fa-align-justify {
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #405cbf;
+    line-height: 80px;
+  }
+  main {
+    padding-top: 54px;
+  }
+  main .top {
+    height: 96%;
+  }
+  main .top .top-container {
+    background-image: url("../img/sky.jpg");
+    background-size: cover;
+  }
+  main .top .top-container .top-text {
+    font-size: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .top .top-container .top-text h2 {
+    font-size: 3.0rem;
+    margin-top: 12%;
+    padding: 0;
+    padding-right: 10px;
+  }
+  main .top .top-container .top-text h1 {
+    font-size: 3.5rem;
+    margin-top: 115px;
+  }
+  main .main-about h1 {
+    font-size: 4.0rem;
+  }
+  main .main-about p {
+    font-size: 1.5rem;
+  }
+  main .main-about .about-text p {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  main .main-service h1 {
+    font-size: 4.0rem;
+  }
+  main .main-service p {
+    font-size: 1.5rem;
+  }
+  main .main-service .service-text p {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  main .main-flow h1 {
+    font-size: 4.0rem;
+  }
+  main .main-flow p {
+    font-size: 1.5rem;
+  }
+  main .main-flow .flow-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+  main .main-flow .flow-text .flow-box {
+    width: 46%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  main .main-flow .flow-more {
+    margin-left: 60%;
+  }
+  main .main-price h1 {
+    font-size: 4.0rem;
+  }
+  main .main-price p {
+    font-size: 1.5rem;
+  }
+  main .main-price .plan-boxes {
+    padding-top: 80px;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan h2 {
+    font-size: 2.5rem;
+    line-height: 65px;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan h3 {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .a-plan p {
+    margin-left: 35%;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan h2 {
+    font-size: 2.5rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan h3 {
+    margin-left: 40px;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-boxes .boxes-container .b-plan p {
+    margin-left: 35%;
+    font-size: 1.3rem;
+  }
+  main .main-price .plan-more {
+    margin-left: 60%;
+  }
+  main .main-contact h1 {
+    font-size: 3.5rem;
+  }
+  main .main-contact p {
+    font-size: 1.0rem;
+  }
+  main .main-contact .contact-text p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .main-contact .contact-btn {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=nextversion_res.css.map */
