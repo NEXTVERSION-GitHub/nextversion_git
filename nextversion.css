@@ -159,7 +159,7 @@ main .top {
 main .top .top-container {
   height: 100%;
   margin: 0 auto;
-  background-image: url("../img/sky_pc.jpg");
+  background-image: url("sky_pc.jpg");
   background-size: cover;
 }
 
