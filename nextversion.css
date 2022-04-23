@@ -25,6 +25,64 @@
   }
 }
 
+.loading {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.loading #container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -10px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.loading #container span {
+  display: block;
+  background: #000;
+  width: 100px;
+  height: 5px;
+  margin-top: 5px;
+  -webkit-animation: load 2s infinite;
+          animation: load 2s infinite;
+  border-radius: 5px;
+}
+
+.loading #container span:nth-child(2) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+.loading #container span:nth-child(3) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+@-webkit-keyframes load {
+  50% {
+    width: 5px;
+    margin-right: 95px;
+    opacity: .1;
+  }
+}
+
+@keyframes load {
+  50% {
+    width: 5px;
+    margin-right: 95px;
+    opacity: .1;
+  }
+}
+
 body {
   font-family: sans-serif;
   font-family: serif;
@@ -101,7 +159,7 @@ main .top {
 main .top .top-container {
   height: 100%;
   margin: 0 auto;
-  background-image: url("sky_pc.jpg");
+  background-image: url("../img/sky_pc.jpg");
   background-size: cover;
 }
 
@@ -466,63 +524,5 @@ footer .footer-insta {
 footer p {
   letter-spacing: 10px;
   margin-top: 20px;
-}
-
-.loading {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index:100;
-}
-
-#container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -50px;
-  margin-top: -10px;
-  text-align: center;
-  font-family: Arial;
-  font-weight: bold;
-}
-
-#container span {
-  display: block;
-  background: #000;
-  width: 100px;
-  height: 5px;
-  margin-top: 5px;
-  -webkit-animation: load 2s infinite;
-          animation: load 2s infinite;
-  border-radius: 5px;
-}
-
-#container span:nth-child(2) {
-  -webkit-animation-delay: 100ms;
-          animation-delay: 100ms;
-}
-
-#container span:nth-child(3) {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
-}
-
-@-webkit-keyframes load {
-  50% {
-    width: 5px;
-    margin-right: 95px;
-    opacity: .1;
-  }
-}
-
-@keyframes load {
-  50% {
-    width: 5px;
-    margin-right: 95px;
-    opacity: .1;
-  }
 }
 /*# sourceMappingURL=nextversion.css.map */
