@@ -1,0 +1,210 @@
+.fadein {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: serif;
+}
+
+.sp {
+  display: none;
+}
+
+.tb {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 30;
+}
+
+header .header-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-container .header-left {
+  background-color: white;
+  width: 15%;
+}
+
+header .header-container .header-left img {
+  width: 100%;
+}
+
+header .header-container .header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header-container .header-right .header-btn {
+  line-height: 115px;
+  margin-right: 1%;
+  font-size: 1.5rem;
+  border-radius: 2px;
+}
+
+header .header-container .header-right .header-btns {
+  display: none;
+}
+
+header .header-container .header-right .header-btn a {
+  padding: 20px 40px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .header-container .header-right .header-btn a:hover {
+  border-bottom: 1px solid #405cbf;
+}
+
+main {
+  padding-top: 115px;
+  padding-bottom: 200px;
+}
+
+main .flow-more {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .flow-more .flow-more-container .flow-more-head {
+  margin-top: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-bottom: 1px solid black;
+}
+
+main .flow-more .flow-more-container .flow-more-head h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  padding-top: 60px;
+}
+
+main .flow-more .flow-more-container .flow-more-head p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+main .flow-more .flow-more-container .flow-more-main {
+  margin-top: 70px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-header {
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text .fa-laptop-code {
+  font-size: 5.0rem;
+  line-height: 147px;
+  color: #405cbf;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-top .top-text p {
+  width: 30%;
+  margin-left: 60px;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left {
+  margin-right: 105px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_left h1 {
+  font-size: 2.5rem;
+  background-color: #405cbf;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right h2 {
+  font-size: 2rem;
+}
+
+main .flow-more .flow-more-container .flow-more-main .flow-more-text .step_block .step_right p {
+  margin-top: 30px;
+  letter-spacing: 2px;
+  line-height: 33px;
+}
+
+footer {
+  background-color: #405cbf;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+footer .footer-mail {
+  padding-right: 30px;
+  font-size: 1.5rem;
+}
+
+footer .footer-insta {
+  font-size: 1.5rem;
+}
+
+footer p {
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=flow.css.map */

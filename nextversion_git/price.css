@@ -1,0 +1,270 @@
+.fadein {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.sp {
+  display: none;
+}
+
+.tb {
+  display: none;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: serif;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 30;
+}
+
+header .header-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-container .header-left {
+  background-color: white;
+  width: 15%;
+}
+
+header .header-container .header-left img {
+  width: 100%;
+}
+
+header .header-container .header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header-container .header-right .header-btn {
+  line-height: 115px;
+  margin-right: 1%;
+  font-size: 1.5rem;
+  border-radius: 2px;
+}
+
+header .header-container .header-right .header-btn a {
+  padding: 20px 40px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .header-container .header-right .header-btn a:hover {
+  border-bottom: 1px solid #405cbf;
+}
+
+header .header-container .header-right .header-btns {
+  display: none;
+}
+
+main {
+  padding-top: 115px;
+  padding-bottom: 200px;
+}
+
+main .price-more {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .price-more .price-more-head {
+  margin-top: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-bottom: 1px solid black;
+}
+
+main .price-more .price-more-head h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  padding-top: 60px;
+}
+
+main .price-more .price-more-head p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+main .price-more .price-more-top-text {
+  padding: 60px 0;
+  border-bottom: 1px solid black;
+  background-color: #405cbf;
+  color: white;
+}
+
+main .price-more .price-more-top-text p {
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+main .price-more .site-box {
+  padding: 30px 0;
+  padding-bottom: 50px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+  border: 1px solid #405cbf;
+  border-radius: 5px;
+}
+
+main .price-more .site-box .site-box-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .price-more .site-box .site-box-container h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+main .price-more .site-box .site-box-container .site-box-content {
+  margin-top: 30px;
+}
+
+main .price-more .site-box .site-box-container .content-box {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .price-more .site-box .site-box-container .content-box h2 {
+  margin-right: 50px;
+  letter-spacing: 2px;
+  background-color: #405cbf;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px 10px 40px 10px;
+  color: white;
+}
+
+main .price-more .site-box .site-box-container .content-box p {
+  position: relative;
+  letter-spacing: 3px;
+  position: relative;
+  top: 5px;
+  line-height: 40px;
+}
+
+main .price-more .plus {
+  text-align: center;
+  font-size: 4.0rem;
+  margin-top: 50px;
+}
+
+main .price-more .plan-boxes {
+  border: 1px solid #405cbf;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 70px 0;
+  padding-bottom: 70px;
+  border-radius: 3px;
+}
+
+main .price-more .plan-boxes .boxes-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .price-more .plan-boxes .boxes-container .a-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .price-more .plan-boxes .boxes-container .a-plan h2 {
+  font-size: 3rem;
+  margin-right: 40px;
+}
+
+main .price-more .plan-boxes .boxes-container .a-plan h3 {
+  font-size: 1.5rem;
+  margin-right: 40px;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+
+main .price-more .plan-boxes .boxes-container .a-plan p {
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+
+main .price-more .plan-boxes .boxes-container .b-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+main .price-more .plan-boxes .boxes-container .b-plan h2 {
+  font-size: 3rem;
+  margin-right: 40px;
+  line-height: 65px;
+}
+
+main .price-more .plan-boxes .boxes-container .b-plan h3 {
+  font-size: 1.5rem;
+  line-height: 70px;
+  margin-right: 40px;
+  letter-spacing: 2px;
+}
+
+main .price-more .plan-boxes .boxes-container .b-plan p {
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+
+footer {
+  background-color: #405cbf;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+footer .footer-mail {
+  padding-right: 30px;
+  font-size: 1.5rem;
+}
+
+footer .footer-insta {
+  font-size: 1.5rem;
+}
+
+footer p {
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=price.css.map */
